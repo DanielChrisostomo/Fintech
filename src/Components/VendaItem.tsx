@@ -1,8 +1,6 @@
 import { IVenda } from "../Context/DataContext";
 
 const VendaItem = ({ venda }: { venda: IVenda }) => {
-  console.log(venda);
-
   return (
     <div className="venda box">
       <a href="" style={{ fontFamily: "monospace" }}>

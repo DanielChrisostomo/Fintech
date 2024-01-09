@@ -5,8 +5,6 @@ import VendaItem from "../Components/VendaItem";
 const Vendas = () => {
   const { data } = useData();
 
-  console.log(data);
-
   if (data === null) return null;
   return (
     <ul>
