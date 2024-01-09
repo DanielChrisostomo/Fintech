@@ -1,4 +1,3 @@
-import React from "react";
 import DateInput from "./DateInput";
 import { useData } from "../Context/DataContext";
 
@@ -17,9 +16,7 @@ const DateRange = () => {
         value={final}
         onChange={({ target }) => setFinal(target.value)}
       />
-      {final}
       <br />
-      {inicio}
     </form>
   );
 };
